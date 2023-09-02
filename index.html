@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="timer" class="clock">00:00</div>
+        <div class="buttons">
+            <button id="startStopButton" onclick="toggleTimer()">Start</button>
+            <button onclick="resetTimer()">Reset</button>
+            <button onclick="editTimer()">Edit Timer</button>
+        </div>
+        <!-- Existing HTML -->
+        <input id="timeInput" type="text" placeholder="MM:SS" style="display:none;">
+        <button id="setButton" onclick="setTime()" style="display:none;">Set</button>
+
+    </div>
+</body>
+
+</html>
+<script src="/index.js"></script>

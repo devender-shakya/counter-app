@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    border: 1px solid black;
+    width: 600px;
+    height: 350px;
+    background-color:black ;
+  }
+  
+  .clock {
+    font-family: "clockicons";
+    font-size: 140px;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  
+  .buttons button:nth-child(1) {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  
+  .buttons button:nth-child(2) {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  .buttons button:nth-child(3) {
+    background-color: rgb(185, 113, 30);
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+  /* Existing CSS */
+
+#timeInput, #setButton {
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  #timeInput {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #setButton {
+    padding: 11px 20px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
